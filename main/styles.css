@@ -161,8 +161,9 @@ img {
   gap: 0.5em;
 }
 
-.card, .card-h {
-  flex: 0 0 24em;
+.card-dani, .card-david, .card-friends, .card-groot, .card-israel, 
+.card-kevyn, .card-maho, .card-self, .card-snake, .card-yara  {
+  flex: 0 0 26em;
   width: fit-content;
   height: max-content;
   max-width: 90%;
@@ -176,7 +177,10 @@ img {
   scroll-snap-align: start;
 }
 
-.card-h {
+.card-friends {
+  flex: 0 0 50em;
+}
+.card-groot {
   flex: 0 0 45em;
 }
 
