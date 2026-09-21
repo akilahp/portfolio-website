@@ -162,7 +162,7 @@ img {
 }
 
 .card {
-  flex: 0 0 24em;
+  flex: 0 0 30em;
   width: fit-content;
   height: max-content;
   max-width: 90%;
