@@ -177,7 +177,7 @@ img {
 }
 
 .card-h {
-  flex: 0 0 40em;
+  flex: 0 0 45em;
 }
 
 .card::scroll-marker {
