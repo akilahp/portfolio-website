@@ -162,9 +162,10 @@ img {
 }
 
 .card {
-  flex: 0 0 20em;
+  /*flex: 0 0 20em;*/
   width: fit-content;
-  align-items: stretch !important;
+  height: max-content;
+  max-width: 100%;
   /*aspect-ratio: 16/9;*/
   background-color: #072A6C;
   color: white;
