@@ -164,7 +164,7 @@ img {
 .card {
   flex: 0 0 20em;
   width: fit-content;
-  align-items: stretch;
+  align-items: stretch !important;
   /*aspect-ratio: 16/9;*/
   background-color: #072A6C;
   color: white;
@@ -181,6 +181,7 @@ img {
   width: 1em;
   background-color: #072A6C;
   border-radius: 50%;
+  padding-bottom: 1vw;
 }
 
 .card::scroll-marker:target-current {
