@@ -163,6 +163,7 @@ img {
 
 .card {
   flex: 0 0 20em;
+  width: fit-content;
   aspect-ratio: 16/9;
   background-color: #072A6C;
   color: white;
