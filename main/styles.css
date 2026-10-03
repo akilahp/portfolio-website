@@ -110,6 +110,25 @@ img {
   border-radius: 0.5em;
 }
 
+table {
+  width: 600px;
+}
+
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: left;
+  font-size: 90%;
+}
+
+td {
+  padding: 10px 10px 10px 10px;
+}
+
+/*.money {
+  text-align: right;
+}*/
+
 .carousel {
   width: 100%;
   overflow-x: auto;
