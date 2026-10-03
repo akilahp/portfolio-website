@@ -161,7 +161,7 @@ img {
   gap: 0.5em;
 }
 
-.card .card-h  {
+.card, .card-h  {
   flex: 0 0 26em;
   width: fit-content;
   height: max-content;
