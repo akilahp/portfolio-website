@@ -111,10 +111,11 @@ img {
 }
 
 table {
-  width: 600px;
+  width: 800px;
 }
 
 th {
+  font-family: 'Fira Code', monospace;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-align: left;
@@ -122,6 +123,7 @@ th {
 }
 
 td {
+  font-family: 'Inter', sans-serif;
   padding: 10px 10px 10px 10px;
 }
 
