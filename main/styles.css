@@ -50,6 +50,7 @@ p {
   margin-right: auto;
   padding-top: 20px;
   background-color: #00B4D8;
+  position: sticky;
   /*
   border-bottom: 2px;
   padding: 10px;*/
