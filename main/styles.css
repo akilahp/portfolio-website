@@ -136,6 +136,13 @@ th, td {
   text-align: right;
 }*/
 
+.text-link {
+  color: #0066cc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
 .carousel {
   width: 100%;
   overflow-x: auto;
