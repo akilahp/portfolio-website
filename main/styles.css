@@ -223,6 +223,7 @@ th, td {
   border-radius: 0.5em;
   text-align: center;
   align-content: center;
+  justify-content: center;
   scroll-snap-align: start;
 }
 
