@@ -71,6 +71,14 @@ p {
   margin-right: auto;
 }
 
+.center_content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
 input[type="radio"] {
   display: none;
 }
