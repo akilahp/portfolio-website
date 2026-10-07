@@ -1,3 +1,4 @@
+/*HEADER AND PARAGRAPHS*/
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
@@ -38,6 +39,7 @@ p {
   margin-bottom: 1.5rem;
 }
 
+/*TABS AND THEIR CONTENT*/
 .tabs_header {
   display: flex;
   align-items: center;
@@ -112,6 +114,7 @@ header:has(#contact:checked) ~ #content_contact {
   display: block !important;
 }
 
+/*IMAGES, TABLES, and IN-SITE LINKS*/
 img {
   display: block;
   width: 100%;
@@ -153,7 +156,7 @@ th, td {
   cursor: pointer;
 }
 
-
+/*GALLERY FOR AKILAHSART*/
 .carousel {
   width: 100%;
   overflow-x: auto;
@@ -236,6 +239,7 @@ th, td {
   background-color: #d5d5d5;
 }
 
+/*Gallery Card Adjustments*/
 @media(max-width: 500px) {
   .card {
     flex: 0 0 100%;
