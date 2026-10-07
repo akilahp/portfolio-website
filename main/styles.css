@@ -61,12 +61,8 @@ p {
 }
 
 .tab_content {
-  display: flex;
-  flex-direction: column;
+  display: none;
   width: 100%;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   box-sizing: border-box;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
