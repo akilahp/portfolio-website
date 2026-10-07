@@ -126,7 +126,7 @@ img {
 }
 
 table {
-  width: 100%;
+  width: 80%;
 }
 
 th {
@@ -208,6 +208,7 @@ th, td {
   display: flex;
   justify-content: center;
   gap: 0.5em;
+  padding-bottom: 20px;
 }
 
 .card, .card-h  {
