@@ -242,6 +242,15 @@ th, td {
   background-color: #d5d5d5;
 }
 
+/*Footer*/
+footer {
+  margin-top: auto;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
 /*Gallery Card Adjustments*/
 @media(max-width: 500px) {
   .card {
