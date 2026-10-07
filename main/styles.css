@@ -61,10 +61,12 @@ p {
 }
 
 .tab_content {
-  display: none;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   align-items: center;
   justify-content: center;
+  text-align: center;
   box-sizing: border-box;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
