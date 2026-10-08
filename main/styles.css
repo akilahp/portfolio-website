@@ -172,6 +172,8 @@ th, td {
   overflow-x: auto;
   margin: 3em auto;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   gap: 1em;
   scroll-behavior: smooth;
   anchor-name: --carousel;
@@ -262,7 +264,7 @@ footer {
   text-align: center;
   background-color: #333;
   color: white;
-  padding: 10px;
+  padding: 5px;
 }
 
 /*Gallery Card Adjustments*/
