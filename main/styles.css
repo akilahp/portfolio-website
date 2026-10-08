@@ -40,9 +40,11 @@ p {
 }
 
 body {
+  position: relative;
   min-height: 100vh;
   min-height: 100dvh;
   margin: 0;
+  padding-bottom: 60px;
 }
 
 /*TABS AND THEIR CONTENT*/
@@ -214,7 +216,7 @@ th, td {
   display: flex;
   justify-content: center;
   gap: 0.5em;
-  padding-bottom: 40px;
+  /*padding-bottom: 50px;*/
 }
 
 .card, .card-h  {
@@ -251,7 +253,11 @@ th, td {
 
 /*Footer*/
 footer {
-  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  /*margin-top: auto;*/
   text-align: center;
   background-color: #333;
   color: white;
