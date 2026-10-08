@@ -47,7 +47,7 @@ body {
   min-height: 100dvh;
   margin: 0;
   padding-bottom: 180px;
-  background-color: #080B18;
+  background-color: #074a61;
   color: white;
 }
 
@@ -236,7 +236,7 @@ th, td {
   height: max-content;
   max-width: 90%;
   /*aspect-ratio: 16/9;*/
-  background-color: #ADD8E6;
+  background-color: #E9967A;
   color: white;
   padding: 1em;
   border-radius: 0.5em;
