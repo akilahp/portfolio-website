@@ -4,8 +4,8 @@ h1 {
   font-size: 1.8rem;
   font-style: italic;
   font-weight: 800;
-  letter-spacing: -0.02em;
-  color: #EAD8B1;
+  letter-spacing: -0.01em;
+  color: #FFF;
 }
 
 h2 {
@@ -107,6 +107,7 @@ input[type="radio"] {
 input[type="radio"]:checked + label {
   background-color: #ADD8E6;
   color: #FFF;
+  text-shadow: 0.5px 0 0 #FFF, -0.5px 0 0 #FFF;
 }
 
 label {
@@ -264,7 +265,7 @@ th, td {
 
 /*Footer*/
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
