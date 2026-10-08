@@ -39,6 +39,12 @@ p {
   margin-bottom: 1.5rem;
 }
 
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0;
+}
+
 /*TABS AND THEIR CONTENT*/
 .tabs_header {
   display: flex;
