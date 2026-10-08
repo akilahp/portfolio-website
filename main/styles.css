@@ -45,6 +45,8 @@ body {
   min-height: 100dvh;
   margin: 0;
   padding-bottom: 180px;
+  background-color: #060814;
+  color: white;
 }
 
 /*TABS AND THEIR CONTENT*/
