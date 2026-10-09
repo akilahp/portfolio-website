@@ -58,10 +58,6 @@ body {
   color: white;
 }
 
-.tabs {
-  flex: 1;
-}
-
 /*TABS AND THEIR CONTENT*/
 .tabs_header {
   position: fixed;
