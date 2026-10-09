@@ -50,10 +50,10 @@ body {
   /*padding-bottom: 20px;*/
   background-color: #0b0d12;
   background-image: 
-    radial-gradient(circle at 15% 10%, rgba(204, 109, 83, 0.30) 0%, rgba(204,109,83,0.02) 20%, transparent 45%),
-    radial-gradient(circle at 25% 50%, rgba(246, 230, 159, 0.20) 0%, transparent 35%),
-    radial-gradient(circle at 85% 45%, rgba(186, 164, 237, 0.30) 0%, transparent 50%),
-    radial-gradient(circle at 80% 85%, rgba(115, 178, 244, 0.20) 0%, rgba(115, 178, 244, 0.02) 25%, transparent 45%);
+    radial-gradient(circle at 15% 10%, rgba(204, 109, 83, 0.60) 0%, rgba(204,109,83,0.02) 20%, transparent 45%),
+    radial-gradient(circle at 25% 50%, rgba(246, 230, 159, 0.40) 0%, transparent 35%),
+    radial-gradient(circle at 85% 45%, rgba(186, 164, 237, 0.40) 0%, transparent 50%),
+    radial-gradient(circle at 80% 85%, rgba(115, 178, 244, 0.60) 0%, rgba(115, 178, 244, 0.02) 25%, transparent 45%);
   background-attachment: absolute;
   background-size: cover;
   color: white;
