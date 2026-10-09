@@ -56,8 +56,6 @@ body {
   background-attachment: absolute;
   background-size: cover;
   color: white;
-  display: flex;
-  flex-direction: column;
 }
 
 .tabs {
