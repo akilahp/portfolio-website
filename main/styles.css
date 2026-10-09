@@ -235,7 +235,7 @@ th, td {
   display: flex;
   justify-content: center;
   gap: 0.5em;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
 }
 
 .card, .card-h  {
