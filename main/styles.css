@@ -50,9 +50,9 @@ body {
   /*padding-bottom: 20px;*/
   background-color: #0b0d12;
   background-image: 
-    radial-gradient(circle at 20% 10%, rgba(115, 178, 244, 0.05) 30%, transparent 60%),
-    radial-gradient(circle at 80% 45%, rgba(204, 109, 83, 0.05) 35%, transparent 65%),
-    radial-gradient(circle at 15% 80%, rgba(246, 230, 159, 0.03) 25%, transparent 55%);
+    radial-gradient(circle at 20% 10%, rgba(115, 178, 244, 0.25) 30%, transparent 60%),
+    radial-gradient(circle at 80% 45%, rgba(204, 109, 83, 0.20) 35%, transparent 65%),
+    radial-gradient(circle at 15% 80%, rgba(246, 230, 159, 0.15) 25%, transparent 55%);
   background-attachment: absolute;
   background-size: cover;
   color: white;
