@@ -117,6 +117,7 @@ body {
 .vfx_tabs {
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }
 
 .center_content{
