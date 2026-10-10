@@ -67,7 +67,7 @@ body {
     /*Lavender*/
     radial-gradient(circle at 85% 45%, rgba(186, 164, 237, 0.55) 0%, rgba(186, 164, 237, 0.08) 40%, transparent 65%),
     /*Light Blue*/
-    radial-gradient(circle at 80% 85%, rgba(173, 216, 230, 0.80) 0%, rgba(173, 216, 230, 0.20) 35%, transparent 60%);
+    radial-gradient(circle at 80% 85%, rgba(109, 185, 209, 0.80) 0%, rgba(109, 185, 209, 0.20) 35%, transparent 60%);
   background-attachment: absolute;
   background-size: cover;
   color: white;
@@ -128,7 +128,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked + label {
-  background-color: #67bbd6; /*#ADD8E6*/
+  background-color: #6db9d1; /*#ADD8E6*/
   color: #FFF;
   text-shadow: 0.5px 0 0 #FFF, -0.5px 0 0 #FFF;
 }
