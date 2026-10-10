@@ -49,7 +49,7 @@ h5 {
 p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   line-height: 1.75;
   letter-spacing: -0.01rem;
   margin-bottom: 1.5rem;
@@ -185,15 +185,18 @@ img {
   border-radius: 0.5em;
 }
 
+.table-outerframe {
+  border: 2px solid #111111;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
 table {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
   empty-cells: hide;
-  border: 2px solid #111111;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);)
 }
 
 th {
@@ -213,20 +216,19 @@ td {
 th, td {
   padding: 10px;
   box-shadow: 0 0 0 0.5px #ccc;
-  /*
   border-bottom: 2px solid #111111;
-  border-right: 2px solid #111111;*/
+  border-right: 2px solid #111111;
 }
-/*
+
 th:last-child, td:last-child {
   border-right: 0;
 }
 
-tr:last-child {
+tr:last-child td {
   border-bottom: 0;
 }
 
-.money {
+/*.money {
   text-align: right;
 }*/
 
