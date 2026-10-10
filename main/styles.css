@@ -1,6 +1,6 @@
 /*HEADER AND PARAGRAPHS*/
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Georgia', serif;
   font-size: 1.8rem;
   font-style: italic;
   font-weight: 800;
@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Georgia', serif;
   font-size: 2rem;
   font-weight: 650;
   letter-spacing: -0.02em;
