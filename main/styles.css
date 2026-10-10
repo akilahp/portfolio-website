@@ -67,7 +67,7 @@ body {
     /*Lavender*/
     radial-gradient(circle at 85% 45%, rgba(186, 164, 237, 0.55) 0%, rgba(186, 164, 237, 0.08) 40%, transparent 65%),
     /*Light Blue*/
-    radial-gradient(circle at 80% 85%, rgba(115, 178, 244, 0.80) 0%, rgba(115, 178, 244, 0.20) 35%, transparent 60%);
+    radial-gradient(circle at 80% 85%, rgba(173, 216, 230, 0.80) 0%, rgba(173, 216, 230, 0.20) 35%, transparent 60%);
   background-attachment: absolute;
   background-size: cover;
   color: white;
