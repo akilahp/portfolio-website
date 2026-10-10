@@ -52,7 +52,7 @@ body {
   background-image:
     /*Terracotta*/
     radial-gradient(circle at 15% 10%, rgba(204, 109, 83, 0.75) 0%, rgba(204, 109, 83, 0.15) 35%, transparent 60%),
-    /* Pastel Yellow*/
+    /*Pastel Yellow*/
     radial-gradient(circle at 25% 50%, rgba(246, 230, 159, 0.55) 0%, rgba(246, 230, 159, 0.08) 40%, transparent 65%),
     /*Lavender*/
     radial-gradient(circle at 85% 45%, rgba(186, 164, 237, 0.55) 0%, rgba(186, 164, 237, 0.08) 40%, transparent 65%),
