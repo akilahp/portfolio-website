@@ -114,6 +114,11 @@ body {
   margin-right: auto;
 }
 
+.vfx_tabs {
+  display: flex;
+  flex-direction: column;
+}
+
 .center_content{
   display: flex;
   flex-direction: column;
