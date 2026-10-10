@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 2rem;
   font-weight: 650;
   letter-spacing: -0.02em;
@@ -19,6 +19,16 @@ h2 {
 }
 
 h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  margin-top: 3.0rem;
+  margin-bottom: 1.2rem;
+  color: #EAD8B1;
+}
+
+h4 {
   font-family: 'Fira Code', monospace;
   font-size: 1.25rem;
   font-weight: 600;
@@ -26,7 +36,7 @@ h3 {
   text-transform: uppercase;
 }
 
-h4 {
+h5 {
   font-family: 'Fira Code', monospace;
   font-size: 1.25rem;
   font-weight: 500;
