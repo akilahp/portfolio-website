@@ -128,9 +128,9 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked + label {
-  background-color: #ADD8E6;
-  color: #000;
-  text-shadow: 0.5px 0 0 #000, -0.5px 0 0 #000;
+  background-color: #67bbd6; /*#ADD8E6*/
+  color: #FFF;
+  text-shadow: 0.5px 0 0 #FFF, -0.5px 0 0 #FFF;
 }
 
 label {
