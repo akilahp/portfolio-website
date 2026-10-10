@@ -121,6 +121,12 @@ body {
   width: 300px;
 }
 
+.vfx_content {
+  flex-grow: 1;
+  background-color: #0d1117;
+}
+.vfx_video_box {}
+
 .center_content{
   display: flex;
   flex-direction: column;
