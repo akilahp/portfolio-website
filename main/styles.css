@@ -119,6 +119,7 @@ body {
   flex-direction: column;
   gap: 16px;
   width: 300px;
+  margin-right: auto;
 }
 
 .vfx_content {
