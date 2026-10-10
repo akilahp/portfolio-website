@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Georgia', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 2rem;
   font-weight: 650;
   letter-spacing: -0.02em;
@@ -43,7 +43,7 @@ h5 {
 }
 
 p {
-  font-family: 'Georgia', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 1.15rem;
   line-height: 1.75;
