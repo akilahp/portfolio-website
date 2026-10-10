@@ -30,16 +30,19 @@ h3 {
 
 h4 {
   font-family: 'Fira Code', monospace;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
 
 h5 {
-  font-family: 'Fira Code', monospace;
-  font-size: 1.25rem;
-  font-weight: 500;
+  font-family: 'Georgia', serif;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: 0.5em;
+  color: #EAD8B1;
 }
 
 p {
