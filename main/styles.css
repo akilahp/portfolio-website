@@ -168,6 +168,7 @@ img {
 
 table {
   width: 100%;
+  border-collapse: collapse;
 }
 
 th {
@@ -176,6 +177,8 @@ th {
   letter-spacing: 0.1em;
   text-align: left;
   font-size: 90%;
+  background-color: #F8FAFC;
+  color: #000;
 }
 
 td {
@@ -184,7 +187,7 @@ td {
 }
 
 th, td {
-  /*border-top: 2px solid #111111;*/
+  border-top: 2px solid #111111;
   border-bottom: 2px solid #111111;
 }
 
