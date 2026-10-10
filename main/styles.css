@@ -195,6 +195,8 @@ th {
   font-size: 90%;
   background-color: #F8FAFC;
   color: #000;
+  border-top: 2px solid #111111;
+  border-left: 2px solid #111111;
 }
 
 td {
@@ -203,7 +205,8 @@ td {
 
 th, td {
   padding: 10px 10px 10px 10px;
-  border: 2px solid #111111;
+  border-bottom: 2px solid #111111;
+  border-right: 2px solid #111111;
 }
 
 /*.money {
