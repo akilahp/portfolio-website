@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Georgia', sans-serif;
   font-size: 2rem;
   font-weight: 650;
   letter-spacing: -0.02em;
@@ -43,7 +43,7 @@ h5 {
 }
 
 p {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Georgia', sans-serif;
   font-weight: 400;
   font-size: 1.15rem;
   line-height: 1.75;
@@ -179,7 +179,7 @@ th {
 }
 
 td {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Georgia', sans-serif;
   padding: 10px 10px 10px 10px;
 }
 
@@ -259,7 +259,7 @@ th, td {
   height: max-content;
   max-width: 90%;
   /*aspect-ratio: 16/9;*/
-  background-color: #E9967A;
+  background-color: #41aed1; /*#E9967A;*/
   color: white;
   padding: 1em;
   border-radius: 0.5em;
@@ -277,7 +277,7 @@ th, td {
   content: '';
   height: 1em;
   width: 1em;
-  background-color: #ADD8E6;
+  background-color: #41aed1;
   border-radius: 50%;
   /*padding: 50px;*/
 }
