@@ -185,7 +185,7 @@ img {
   border-radius: 0.5em;
 }
 
-.table-outerframe {
+.table_outerframe {
   border: 2px solid #111111;
   border-radius: 12px;
   overflow: hidden;
