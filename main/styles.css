@@ -120,10 +120,10 @@ body {
 
 .vfx_tabs {
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
   gap: 16px;
   width: 300px;
-  margin-right: auto;
+  /*margin-right: auto;*/
 }
 
 .vfx_content {
