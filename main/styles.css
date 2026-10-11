@@ -194,7 +194,7 @@ img {
 
 table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
   border-spacing: 2px;
   empty-cells: hide;
 }
