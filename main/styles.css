@@ -187,8 +187,8 @@ img {
 
 .table_outerframe {
   border: none;
-  border-radius: 5px;
-  overflow: hidden;
+  border-radius: 12px;
+  /*overflow: hidden;*/
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
@@ -223,7 +223,7 @@ th, td {
   visibility: hidden !important;
   border-top: 2px solid transparent;
   border-left: 2px solid transparent;
-  border-radius: 5px;
+  border-radius: 12px;
 }
 /*.money {
   text-align: right;
