@@ -223,7 +223,11 @@ th, td {
   visibility: hidden !important;
   border-top: 2px solid transparent;
   border-left: 2px solid transparent;
-  border-radius: 12px;
+}
+
+.empty_left_header th:nth-child(2),
+.empty_left_header th:nth-child(6) {
+  border-top-left-radius: 12px;
 }
 /*.money {
   text-align: right;
