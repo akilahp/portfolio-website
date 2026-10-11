@@ -194,7 +194,7 @@ img {
 
 table {
   width: 100%;
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 2px;
   empty-cells: hide;
 }
@@ -215,13 +215,14 @@ td {
 
 th, td {
   padding: 10px;
-  border-bottom: 2px solid #111111;
-  border-right: 2px solid #111111;
+  border: 2px solid #111111;
 }
 
 .empty_left_header th:empty {
   background-color: transparent !important;
   visibility: hidden !important;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
 }
 /*.money {
   text-align: right;
