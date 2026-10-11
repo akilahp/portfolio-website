@@ -186,8 +186,7 @@ img {
 }
 
 .table_outerframe {
-  border: none;
-  border-radius: 12px;
+  border: 2px solid #111111;
   /*overflow: hidden;*/
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
@@ -223,11 +222,6 @@ th, td {
   visibility: hidden !important;
   border-top: 2px solid transparent;
   border-left: 2px solid transparent;
-}
-
-.empty_left_header th:nth-child(2),
-.empty_left_header th:nth-child(6) {
-  border-top-left-radius: 12px;
 }
 /*.money {
   text-align: right;
