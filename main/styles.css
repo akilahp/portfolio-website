@@ -196,7 +196,6 @@ table {
   width: 100%;
   border-collapse: separate;
   border-spacing: 2px;
-  background-color: #ccc;
   empty-cells: hide;
 }
 
@@ -218,6 +217,9 @@ th, td {
   padding: 10px;
 }
 
+.empty_left_header th:empty {
+  display: none !important;
+}
 /*.money {
   text-align: right;
 }*/
