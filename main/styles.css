@@ -218,7 +218,9 @@ th, td {
 }
 
 .empty_left_header th:empty {
-  display: none !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  visibility: hidden !important;
 }
 /*.money {
   text-align: right;
