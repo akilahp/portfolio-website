@@ -222,8 +222,6 @@ th, td {
 .empty_left_header th:empty {
   background-color: transparent !important;
   visibility: hidden !important;
-  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 25%, 20% 25%);
-  border: 2px solid #111111;
 }
 /*.money {
   text-align: right;
