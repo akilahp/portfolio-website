@@ -109,7 +109,7 @@ body {
   margin-left: 15px;
 }
 
-.tab_content {
+.tab_content, .vfx_content {
   display: none;
   width: 100%;
   box-sizing: border-box;
@@ -120,20 +120,17 @@ body {
   margin-right: auto;
 }
 
+.vfx_content {
+  flex-grow: 1;
+}
+
 .vfx_tabs {
   display: flex;
   justify-content: center;
-  /*flex-direction: column;*/
   gap: 16px;
   width: 100%;
-  /*margin-right: auto;*/
 }
 
-.vfx_content {
-  flex-grow: 1;
-  display: none;
-  width: 100%;
-}
 .vfx_video_box {
   background-color: #0d1117;
 }
