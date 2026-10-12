@@ -133,6 +133,8 @@ body {
 
 .vfx_video_box {
   background-color: #0d1117;
+  max-width: 800px;
+  justify-content: center;
 }
 
 .center_content{
