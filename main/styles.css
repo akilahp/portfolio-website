@@ -178,6 +178,12 @@ header:has(#contact:checked) ~ #content_contact {
   display: block !important;
 }
 
+#content_project:has(#proj1:checked) ~ #content_proj1,
+#content_project:has(#proj2:checked) ~ #content_proj2,
+#content_project:has(#proj3:checked) ~ #content_proj3 {
+  display: block !important;
+}
+
 /*IMAGES, TABLES, and IN-SITE LINKS*/
 img {
   display: block;
