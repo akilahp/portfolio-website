@@ -244,6 +244,14 @@ th, td {
   cursor: pointer;
 }
 
+a:link {
+  color: #ADD8E6;
+}
+
+a:visited {
+  color: #BAA4ED;
+}
+
 /*GALLERY FOR AKILAHSART*/
 .carousel {
   width: 100%;
