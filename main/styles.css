@@ -178,9 +178,9 @@ header:has(#contact:checked) ~ #content_contact {
   display: block !important;
 }
 
-body:has(#proj1:checked) ~ #content_proj1.vfx_content,
-body:has(#proj2:checked) ~ #content_proj2.vfx_content,
-body:has(#proj3:checked) ~ #content_proj3.vfx_content {
+body:has(#proj1:checked) #content_proj1.vfx_content,
+body:has(#proj2:checked) #content_proj2.vfx_content,
+body:has(#proj3:checked) #content_proj3.vfx_content {
   display: block !important;
 }
 
