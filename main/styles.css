@@ -172,10 +172,10 @@ label {
 }
 
 header:has(#home:checked) ~ #content_home,
+header:has(#about:checked) ~ #content_about,
 header:has(#project:checked) ~ #content_project,
 header:has(#music:checked) ~ #content_music,
 header:has(#artBusiness:checked) ~ #content_artBusiness,
-header:has(#about:checked) ~ #content_about,
 header:has(#contact:checked) ~ #content_contact {
   display: block !important;
 }
