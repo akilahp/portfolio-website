@@ -171,12 +171,6 @@ label {
   margin-left: 5px;
 }
 
-.highlight {
-  border-radius: 5px;
-  background-color: #CC6D53;
-  color: #000;
-}
-
 header:has(#home:checked) ~ #content_home,
 header:has(#about:checked) ~ #content_about,
 header:has(#project:checked) ~ #content_project,
