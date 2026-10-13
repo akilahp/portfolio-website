@@ -238,6 +238,11 @@ th, td {
   text-align: right;
 }*/
 
+.home_grid {
+  display: flex;
+  flex-direction: row;
+}
+
 .text-link {
   color: #0066cc;
   background-color: #FFF;
