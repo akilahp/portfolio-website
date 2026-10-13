@@ -206,6 +206,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   empty-cells: hide;
+  font-size: 1.25rem;
 }
 
 th {
