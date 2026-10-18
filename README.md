@@ -1,10 +1,10 @@
-#Akilah's Digital Portfolio Website
+# Akilah's Digital Portfolio Website
 
-##Hello. Welcome to my digital portfolio! 
+## Hello. Welcome to my digital portfolio! 
 
 I learned a lot from creating this website from scratch. 
 
-###The following are the resources I used to help build this site:
+### The following are the resources I used to help build this site:
 
 **Textbooks**
 - *HTML & CSS: Design and Build Websites* by Jon Duckett
