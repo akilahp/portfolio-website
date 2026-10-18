@@ -2,7 +2,7 @@
 
 ## Hello. Welcome to my digital portfolio! 
 
-I learned a lot from creating this website from scratch. 
+I created this website from scratch using HTML and CSS. I have learned so much from this experience! 
 
 ### The following are the resources I used to help build this site:
 
