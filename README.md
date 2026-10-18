@@ -16,3 +16,8 @@ I created this website from scratch using HTML and CSS. I have learned so much f
 
 **Other**
 - [Blender Python API Documentation](https://docs.blender.org/api/current/)
+
+
+###My Website Creation Process:
+####Setbacks/Where I Got Stuck
+- I struggled to make the tables rounded
