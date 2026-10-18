@@ -1,4 +1,4 @@
-Hello, Welcome to my digital portfolio! 
+Hello. Welcome to my digital portfolio! 
 
 I learned a lot from creating this website from scratch. 
 
@@ -11,3 +11,6 @@ Textbooks:
 Youtube Links:
 - Create Amazing SCROLL Animation with Intersection Observer by Coding2GO: https://www.youtube.com/watch?v=adqwnu3gs2k
 - Just Create Tabs Using HTML and CSS - No JS Required by CodzSword: https://www.youtube.com/watch?v=tbbJ43FbV4Q
+
+Other
+- Blender Python API Documentation: https://docs.blender.org/api/current/
