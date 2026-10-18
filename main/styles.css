@@ -214,6 +214,10 @@ table {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
   /*empty-cells: hide;*/
   font-size: 1rem;
 }
@@ -234,7 +238,9 @@ td {
 
 th, td {
   padding: 10px;
-  border: 2.5px solid #0B0F19;
+  /*border: 2.5px solid #0B0F19;*/
+  border-bottom: 2px solid #0B0F19;
+  border-right: 2px solid #0B0F19;
   text-align: center;
 }
 
@@ -247,7 +253,7 @@ th, td {
 
 .empty_left_header tr:nth-child(1) th:nth-child(2),
 .empty_left_header tr:nth-child(2) th:first-child {
-  border-top-left-radius: 8px;
+  border-top-left-radius: 8px !important;
   border-top: 2px solid #0B0F19;
   border-left: 2px solid #0B0F19;
 }
