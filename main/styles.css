@@ -260,6 +260,28 @@ a:visited {
   color: #BAA4ED;
 }
 
+/*Status Bar for AKILAHSART*/
+.status_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F4F5;
+  color: #18181B;
+  text-align: center;
+  padding: 10px 20px;
+  gap: 8px;
+}
+
+.status_dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: #22C55E;
+  /*background-color: #EAB308; YELLOW*/
+  /*background-color: #EF4444; RED*/
+  border-radius: 50%;
+}
+
 /*GALLERY FOR AKILAHSART*/
 .carousel {
   width: 100%;
