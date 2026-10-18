@@ -206,11 +206,8 @@ img {
 
 .table_outerframe {
   /*border: 0;*/
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-  /*overflow: hidden;*/
+  border-radius: 8px;
+  overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
@@ -239,6 +236,8 @@ td {
 th, td {
   padding: 10px;
   /*border: 2.5px solid #0B0F19;*/
+  border-top: 2px solid #0B0F19;
+  border-left: 2px solid #0B0F19;
   border-bottom: 2px solid #0B0F19;
   border-right: 2px solid #0B0F19;
   text-align: center;
