@@ -297,6 +297,10 @@ a:visited {
 }
 
 /*GALLERY FOR AKILAHSART*/
+.gallery_spacing {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
 .carousel {
   width: 100%;
   overflow-x: auto;
