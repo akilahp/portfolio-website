@@ -262,14 +262,16 @@ a:visited {
 
 /*Status Bar for AKILAHSART*/
 .status_bar {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   background-color: #F4F4F5;
   color: #18181B;
   text-align: center;
-  padding: 10px 20px;
+  padding: 10px 24px;
   gap: 8px;
+  border: 1px solid #E4E4E7;
+  border-radius: 50px;
 }
 
 .status_dot {
