@@ -206,7 +206,9 @@ img {
 
 .table_outerframe {
   /*border: 0;*/
-  border-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
