@@ -205,6 +205,8 @@ img {
 }
 
 .table_outerframe {
+  border-top: 2.5px solid #0B0F19;
+  border-left: 2.5px solid #0B0F19;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
@@ -231,39 +233,54 @@ th {
 
 td {
   font-family: 'Inter', sans-serif;
-  border-top: 2px solid #0B0F19;
-  border-left: 2px solid #0B0F19;
 }
 
 th, td {
   padding: 10px;
   text-align: center;
-  background-clip: padding-box !important;
+  border-bottom: 2.5px solid #0B0F19;
+  border-right: 2.5px solid #0B0F19;
 }
 
-table tr th:last-child,
-table tr td:last-child {
-  border-right: 2px solid #0B0F19;
-}
-
-table tr:last-child th,
-table tr:last-child td {
-  border-bottom: 2px solid #0B0F19;
-}
-
-.empty_left_header th:empty {
+/*EMPTY CORNER CELL*/
+.empty_left_header tr:first-child th:first-child {
+  border: none !important;
   background-color: transparent !important;
-  visibility: hidden !important;
+  /*visibility: hidden !important;
   border-top: 2px solid transparent;
-  border-left: 2px solid transparent;
+  border-left: 2px solid transparent;*/
+}
+/*NEW TOP CORNER*/
+.empty_left_header tr:first-child th:nth-child(2) {
+  border-top-left-radius: 10px;
+  border-left: 2.5px solid #0B0F19;
+}
+/*NEW LEFT CORNER*/
+.empty_left_header tr:nth-child(2) th:first-child {
+  border-top-left-radius: 10px;
+  border-top: 2.5px solid #0B0F19;
+}
+/*TOP BORDER*/
+.empty_left_header tr:first-child th:not(:first-child) {
+  border-top: 2.5px solid #0B0F19;
+}
+/*TOP-RIGHT CORNER*/
+.empty_left_header tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+/*LEFT SIDE BORDER*/
+.empty_left_header tr:not(:first-child) th:first-child {
+  border-left: 2.5px solid #0B0F19;
+}
+/*BOTTOM-RIGHT CORNER*/
+.empty_left_header tr:last-child th:first-child {
+  border-bottom-left-radius: 10px;
+}
+/*BOTTOM-LEFT CORNER*/
+.empty_left_header tr:last-child td:last-child {
+  border-bottom-right-radius: 10px
 }
 
-.empty_left_header tr:nth-child(1) th:nth-child(2),
-.empty_left_header tr:nth-child(2) th:first-child {
-  border-top-left-radius: 8px !important;
-  border-top: 2px solid #0B0F19;
-  border-left: 2px solid #0B0F19;
-}
 
 .home_grid {
   display: flex;
