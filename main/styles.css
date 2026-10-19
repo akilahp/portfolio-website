@@ -239,7 +239,7 @@ th, td {
   border-top: 2px solid #0B0F19;
   border-left: 2px solid #0B0F19;
   text-align: center;
-  background-clip: padding-box;
+  background-clip: padding-box !important;
 }
 
 table tr th:last-child,
