@@ -206,8 +206,8 @@ img {
 
 .table_outerframe {
   /*border-top: 2.5px solid #0B0F19;
-  border-left: 2.5px solid #0B0F19;*/
-  border-radius: 10px;
+  border-left: 2.5px solid #0B0F19;
+  border-radius: 10px;*/
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
   /*border: 2.5px solid #0B0F19;*/
@@ -261,6 +261,7 @@ th, td {
   border-top: 2.5px solid #0B0F19;
 }
 /*TOP BORDER*/
+.complete_table,
 .empty_left_header tr:first-child th:not(:first-child) {
   border-top: 2.5px solid #0B0F19;
 }
@@ -269,6 +270,7 @@ th, td {
   border-top-right-radius: 10px;
 }
 /*LEFT SIDE BORDER*/
+.complete_table,
 .empty_left_header tr:not(:first-child) th:first-child {
   border-left: 2.5px solid #0B0F19;
 }
