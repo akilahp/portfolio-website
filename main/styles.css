@@ -206,14 +206,13 @@ img {
 
 .table_outerframe {
   /*border: 0;*/
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 table {
+  border: 2.5px solid #0B0F19;
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
@@ -233,13 +232,12 @@ th {
 
 td {
   font-family: 'Inter', sans-serif;
+  border-top: 2px solid #0B0F19;
+  border-left: 2px solid #0B0F19;
 }
 
 th, td {
   padding: 10px;
-  /*border: 2.5px solid #0B0F19;*/
-  border-top: 2px solid #0B0F19;
-  border-left: 2px solid #0B0F19;
   text-align: center;
   background-clip: padding-box !important;
 }
