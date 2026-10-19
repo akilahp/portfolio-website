@@ -205,19 +205,14 @@ img {
 }
 
 .table_outerframe {
-  /*border-top: 2.5px solid #0B0F19;
-  border-left: 2.5px solid #0B0F19;
-  border-radius: 10px;*/
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-  /*border: 2.5px solid #0B0F19;*/
 }
 
 table {
   border-collapse: separate;
   border-spacing: 0;
   width: 100%;
-  /*empty-cells: hide;*/
   font-size: 1rem;
 }
 
@@ -225,7 +220,6 @@ th {
   font-family: 'Fira Code', monospace;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  text-align: left;
   font-size: 95%;
   background-color: #F8FAFC;
   color: #000;
@@ -239,8 +233,8 @@ td {
 th, td {
   padding: 10px;
   text-align: center;
-  border-bottom: 2.5px solid #0B0F19;
-  border-right: 2.5px solid #0B0F19;
+  border-bottom: 3px solid #0B0F19;
+  border-right: 3px solid #0B0F19;
 }
 
 .complete_table tr:first-child th:first-child {
@@ -258,18 +252,18 @@ th, td {
 /*NEW TOP CORNER*/
 .empty_left_header tr:first-child th:nth-child(2) {
   border-top-left-radius: 10px;
-  border-left: 2.5px solid #0B0F19;
+  border-left: 3px solid #0B0F19;
 }
 /*NEW LEFT CORNER*/
 .empty_left_header tr:nth-child(2) th:first-child {
   border-top-left-radius: 10px;
-  border-top: 2.5px solid #0B0F19;
+  border-top: 3px solid #0B0F19;
 }
 /*TOP BORDER*/
 .complete_table tr:first-child th,
 .complete_table tr:first-child td,
 .empty_left_header tr:first-child th:not(:first-child) {
-  border-top: 2.5px solid #0B0F19;
+  border-top: 3px solid #0B0F19;
 }
 /*TOP-RIGHT CORNER*/
 .complete_table tr:first-child td:last-child,
@@ -279,7 +273,7 @@ th, td {
 /*LEFT SIDE BORDER*/
 .complete_table tr th:first-child,
 .empty_left_header tr:not(:first-child) th:first-child {
-  border-left: 2.5px solid #0B0F19;
+  border-left: 3px solid #0B0F19;
 }
 /*BOTTOM-RIGHT CORNER*/
 .complete_table tr:last-child th:first-child,
