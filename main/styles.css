@@ -266,6 +266,7 @@ th, td {
   border-top: 2.5px solid #0B0F19;
 }
 /*TOP-RIGHT CORNER*/
+.complete_table,
 .empty_left_header tr:first-child th:last-child {
   border-top-right-radius: 10px;
 }
@@ -275,10 +276,12 @@ th, td {
   border-left: 2.5px solid #0B0F19;
 }
 /*BOTTOM-RIGHT CORNER*/
+.complete_table,
 .empty_left_header tr:last-child th:first-child {
   border-bottom-left-radius: 10px;
 }
 /*BOTTOM-LEFT CORNER*/
+.complete_table,
 .empty_left_header tr:last-child td:last-child {
   border-bottom-right-radius: 10px
 }
