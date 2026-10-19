@@ -208,7 +208,7 @@ img {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-  border: 2.5px solid #0B0F19;
+  /*border: 2.5px solid #0B0F19;*/
 }
 
 table {
