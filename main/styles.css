@@ -5,7 +5,7 @@ h1 {
   font-style: italic;
   font-weight: 800;
   letter-spacing: -0.01em;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 h2 {
@@ -15,7 +15,7 @@ h2 {
   letter-spacing: -0.02em;
   /*margin-top: 4rem;*/
   margin-bottom: 1.2rem;
-  color: #EAD8B1;
+  color: #FFFFFF;
 }
 
 h3 {
@@ -25,7 +25,7 @@ h3 {
   letter-spacing: -0.02em;
   margin-top: 2rem;
   margin-bottom: 1.2rem;
-  color: #EAD8B1;
+  color: #FFFFFF;
 }
 
 h4 {
@@ -44,7 +44,7 @@ h5 {
   margin-top: 2.5rem;
   margin-bottom: 0.05rem;
   letter-spacing: 0.05em;
-  color: #EAD8B1;
+  color: #BAA4ED;
 }
 
 h6 {
@@ -54,7 +54,7 @@ h6 {
   letter-spacing: -0.02em;
   margin-top: 4rem;
   margin-bottom: 1rem;
-  color: #EAD8B1;
+  color: #BAA4ED;
 }
 
 p {
@@ -64,6 +64,7 @@ p {
   line-height: 1.75;
   letter-spacing: -0.01rem;
   margin-bottom: 1.5rem;
+  color: #E0E1DD;
 }
 
 body {
@@ -73,7 +74,7 @@ body {
   margin: 0;
   /*padding-bottom: 180px;*/
   /*padding-bottom: 20px;*/
-  background-color: #0b0d12;
+  background-color: #0B0D12;
   background-image:
     /*Terracotta*/
     radial-gradient(circle at 5% 5%, rgba(204, 109, 83, 0.60) 0%, rgba(204, 109, 83, 0.15) 25%, transparent 45%),
@@ -85,7 +86,7 @@ body {
     radial-gradient(circle at 95% 95%, rgba(109, 185, 209, 0.80) 0%, rgba(109, 185, 209, 0.20) 25%, transparent 45%);
   background-attachment: absolute;
   background-size: cover;
-  color: white;
+  color: #E0E1DD;
   padding-bottom: 200px;
 }
 
@@ -159,8 +160,8 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked + label {
-  background-color: #6db9d1; /*#ADD8E6*/
-  color: #FFF;
+  background-color: #6DB9D1; /*#ADD8E6*/
+  color: #FFFFFF;
   text-shadow: 0.5px 0 0 #FFF, -0.5px 0 0 #FFF;
 }
 
