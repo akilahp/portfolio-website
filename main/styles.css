@@ -465,7 +465,7 @@ footer {
 
 /*Large Screen Adjustments*/
 @media(min-width: 768px) {
-  .tabs_header label:nth-of-type(1) {
+  .tabs_mobile label:nth-of-type(1) {
     margin-left: auto !important; 
   }
 }
