@@ -232,21 +232,19 @@ table {
   border-collapse: separate;
   border-spacing: 0;
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 th {
   font-family: 'Fira Code', monospace;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 95%;
   background-color: #F8FAFC;
   color: #000;
 }
 
 td {
   font-family: 'Inter', sans-serif;
-  font-size: 95%;
 }
 
 th, td {
