@@ -471,7 +471,7 @@ footer {
 }
 /*Smaller Screen Adjustments*/
 @media(max-width: 850px) {
-  .tabs_header {
+  .tabs_mobile {
     display: none;
     flex-direction: column;
     gap: 15px;
