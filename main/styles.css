@@ -470,6 +470,7 @@ footer {
   }
   .tabs_header button {
     display: none;
+    margin-left: auto !important; 
   }
 }
 /*Smaller Screen Adjustments*/
