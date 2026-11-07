@@ -512,4 +512,7 @@ footer {
   .tabs_mobile.is-open {
     display: flex;
   }
+  .tabs_header {
+    font-size: 1.2rem;
+  }
 }
