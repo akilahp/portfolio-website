@@ -520,11 +520,8 @@ footer {
     display: block !important;
     margin-left: auto !important; 
   }
-  header:has(input[type="radio"]:checked) .tabs_mobile.is-open {
-    display: flex !important;
-  }
-  header:has(input[type="radio"]:checked) .tabs_mobile {
-    display: none;
+  .tabs_mobile.is-open {
+    display: flex;
   }
   .tabs_header {
     font-size: 1.2rem;
