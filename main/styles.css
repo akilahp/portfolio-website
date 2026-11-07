@@ -523,10 +523,13 @@ footer {
   .tabs_mobile.is-open {
     display: flex;
   }
-
   .tabs_header {
     font-size: 1.2rem;
   }
+
+  header:has(input[type="radio"]:checked) .tabs_mobile {
+    display: none !important;
+  } 
 }
 
 /*Page Reveal*/
