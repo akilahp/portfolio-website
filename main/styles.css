@@ -113,7 +113,7 @@ body {
   margin-left: auto;
 }
 
-.mobile_menu_button {
+.mobile_menu_button button {
   margin-left: auto;
   font-size: 2rem;
   background: transparent;
