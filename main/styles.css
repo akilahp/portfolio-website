@@ -23,7 +23,7 @@ h2 {
 /*Sub-headers*/
 h3 {
   font-family: 'Georgia', serif;
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   font-weight: 650;
   letter-spacing: -0.02em;
   margin-top: 2rem;
@@ -361,6 +361,7 @@ a:visited {
   gap: 8px;
   border: 1px solid #E4E4E7;
   border-radius: 50px;
+  margin-bottom: 20px;
 }
 
 .status_dot {
