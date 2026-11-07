@@ -258,21 +258,21 @@ table {
 th {
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  background-color: #1c2035;
+  background-color: #3A3F58;
   color: #FFFFFF;
 }
 
 td {
   /*font-family: 'Inter', sans-serif;*/
-  background-color: #121526;
+  background-color: #2A2E3F;
   color: #FFFFFF;
 }
 
 th, td {
   padding: 10px;
   text-align: center;
-  border-bottom: 3px solid #0B0F19;
-  border-right: 3px solid #0B0F19;
+  border-bottom: 3px solid #51576F;
+  border-right: 3px solid #51576F;
 }
 
 .complete_table tr:first-child th:first-child {
@@ -290,18 +290,18 @@ th, td {
 /*NEW TOP CORNER*/
 .empty_left_header tr:first-child th:nth-child(2) {
   border-top-left-radius: 10px;
-  border-left: 3px solid #0B0F19;
+  border-left: 3px solid #51576F;
 }
 /*NEW LEFT CORNER*/
 .empty_left_header tr:nth-child(2) th:first-child {
   border-top-left-radius: 10px;
-  border-top: 3px solid #0B0F19;
+  border-top: 3px solid #51576F;
 }
 /*TOP BORDER*/
 .complete_table tr:first-child th,
 .complete_table tr:first-child td,
 .empty_left_header tr:first-child th:not(:first-child) {
-  border-top: 3px solid #0B0F19;
+  border-top: 3px solid #51576F;
 }
 /*TOP-RIGHT CORNER*/
 .complete_table tr:first-child td:last-child,
@@ -311,7 +311,7 @@ th, td {
 /*LEFT SIDE BORDER*/
 .complete_table tr th:first-child,
 .empty_left_header tr:not(:first-child) th:first-child {
-  border-left: 3px solid #0B0F19;
+  border-left: 3px solid #51576F;
 }
 /*BOTTOM-RIGHT CORNER*/
 .complete_table tr:last-child th:first-child,
