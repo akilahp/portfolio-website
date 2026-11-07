@@ -520,16 +520,15 @@ footer {
     display: block !important;
     margin-left: auto !important; 
   }
-  .tabs_mobile.is-open {
-    display: flex;
+  header:has(input[type="radio"]:checked) .tabs_mobile.is-open {
+    display: flex !important;
+  }
+  header:has(input[type="radio"]:checked) .tabs_mobile {
+    display: none;
   }
   .tabs_header {
     font-size: 1.2rem;
   }
-
-  header:has(input[type="radio"]:checked) .tabs_mobile {
-    display: none !important;
-  } 
 }
 
 /*Page Reveal*/
