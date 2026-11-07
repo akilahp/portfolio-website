@@ -144,6 +144,7 @@ body {
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1.2px solid rgba(173, 216, 230, 0.12);
   justify-content: space-between;
+  z-index: 10000 !important;
   /*
   border-bottom: 2px;
   padding: 10px;*/
@@ -223,7 +224,7 @@ header:has(#music:checked) ~ #content_music,
 header:has(#artBusiness:checked) ~ #content_artBusiness,
 header:has(#contact:checked) ~ #content_contact {
   display: block !important;
-  animation: glide 0.4s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  animation: glide 0.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 
 body:has(#proj1:checked) #content_proj1.vfx_content,
