@@ -216,31 +216,14 @@ label {
   margin-left: 5px;
 }
 
-#content_home,
-#content_about,
-#content_project,
-#content_music,
-#content_artBusiness,
-#content_contact {
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(20px);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
 header:has(#home:checked) ~ #content_home,
 header:has(#about:checked) ~ #content_about,
 header:has(#project:checked) ~ #content_project,
 header:has(#music:checked) ~ #content_music,
 header:has(#artBusiness:checked) ~ #content_artBusiness,
 header:has(#contact:checked) ~ #content_contact {
-  /*display: block !important;*/
-  opacity: 1 !important;
-  visibility: visible !important;
-  transform: translateY(0) !important;
+  display: block !important;
+  animation: glide 0.4s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 
 body:has(#proj1:checked) #content_proj1.vfx_content,
@@ -539,7 +522,20 @@ footer {
   .tabs_mobile.is-open {
     display: flex;
   }
+
   .tabs_header {
     font-size: 1.2rem;
+  }
+}
+
+/*Page Reveal*/
+@keyframes glide {
+   from {
+     opacity: 0;
+     transform: translateY(20px);
+   } 
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
