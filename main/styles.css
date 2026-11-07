@@ -216,13 +216,27 @@ label {
   margin-left: 5px;
 }
 
+#content_home,
+#content_about,
+#content_project,
+#content_music,
+#content_artBusiness,
+#content_contact {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+}
+
 header:has(#home:checked) ~ #content_home,
 header:has(#about:checked) ~ #content_about,
 header:has(#project:checked) ~ #content_project,
 header:has(#music:checked) ~ #content_music,
 header:has(#artBusiness:checked) ~ #content_artBusiness,
 header:has(#contact:checked) ~ #content_contact {
-  display: block !important;
+  /*display: block !important;*/
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateY(0) !important;
 }
 
 body:has(#proj1:checked) #content_proj1.vfx_content,
