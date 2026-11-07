@@ -488,6 +488,11 @@ footer {
     padding: 15px 5%;
     text-align: center;
   }
+  .tabs_header button {
+    display: block !important;
+    justify-content: space-between;
+    margin-left: auto !important; 
+  }
   .tabs_mobile.is-open {
     display: flex;
   }
