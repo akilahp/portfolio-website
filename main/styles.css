@@ -115,7 +115,8 @@ body {
 
 .mobile_menu_button button {
   margin-left: auto;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Fira Code', monospace;
   background: transparent;
   padding: 0.6rem 1rem;
   border: none;
