@@ -502,9 +502,11 @@ footer {
     top: 100%;
     right: 5%;
     width: 200px;
-    background: rgba(225, 246, 252, 0.25);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background-color: #0B0D12 !important;
+    z-inndex: 9999 !important;
+    border: 1px solid rgba(255, 246, 252, 0.15);
+    border-radius: 8px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.6);
   }
   .mobile_menu_button {
     display: block !important;
