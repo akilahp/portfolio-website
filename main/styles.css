@@ -473,7 +473,7 @@ footer {
 }
 
 /*Large Screen Adjustments*/
-@media(min-width: 951px) {
+@media(min-width: 1151px) {
   .tabs_mobile label:nth-of-type(1) {
     margin-left: auto; 
   }
@@ -484,7 +484,7 @@ footer {
   }
 }
 /*Smaller Screen Adjustments*/
-@media(max-width: 950px) {
+@media(max-width: 1150px) {
   .tabs_mobile {
     display: none;
     flex-direction: column;
