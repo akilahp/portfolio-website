@@ -473,7 +473,7 @@ fieldset {
   border-radius: 8px;
 }
 
-.form_row_1 {
+.form_row_1, .form_row_2 {
   display: flex;
   gap: 16px;
 }
