@@ -479,16 +479,15 @@ select {
   font-size: 1rem;
 }
 
-.form_row_1 {
+.form_row_1, .row_3_music, .row_3_art {
   display: flex;
   gap: 16px;
 }
-.form_row_1 label  {
+.form_row_1 label, .row_3_music label, .row_3_art label {
   flex: 1;
 }
 
 .form_row_2, .form_row_2 label,
-.form_row_3, .form_row_3 label,
 .form_row_4, .form_row_4 label {
   display: block;
 }
