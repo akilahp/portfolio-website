@@ -343,7 +343,46 @@
               <label>Email: <br />
                 <input type="text" name="email" /></label>
             </div>
+            
+            <div class="form_row_3">
+              <div id="music_layer">
+                <label>Project Type: <br />
+                  <select name="music_type">
+                    <option value="'film">Film Scoring</option>
+                    <option value="sound_design">Sound Design</option>
+                    <option value="other">Other</option>
+                  </select>
+                </label>
+                <label>Runtime: <br />
+                  <input type="text" name="music_runtime" placeholder="e.g. 2 minutes, 5 tracks" />
+                </label>
+              </div> <!--music layer-->
               
+              <div id="art_layer">
+                <label>Commission Type: <br />
+                  <select name="art_type">
+                    <option value="portrait">Portrait - Pencil (8x11)</option>
+                    <option value="portrait">Portrait - Pencil (11x14)</option>
+                    <option value="portrait">Portrait - Pencil (18x24)</option>
+                    <!--<option value="portrait">Portrait - Paint (8x11)</option>
+                    <option value="portrait">Portrait - Paint (11x14)</option>
+                    <option value="portrait">Portrait - Paint (18x24)</option>-->
+                    <option value="portrait">Coloring Page (8x11)</option>
+                    <option value="portrait">Logo (8x11)</option>
+                  </select>
+                </label>
+                <label>Number of People/Items: <br />
+                  <input type="text" name="art_quantities" placeholder="e.g. 2 people, 3 pages, 4 symbols" />
+                </label>
+              </div>
+            </div>
+
+            <div class="form_row_4">
+              <label>Message:<br />
+                <textarea name="message" rows="5" placeholder="Tell me more..."></textarea>
+              </label>
+            </div>
+            <button type="submit" class="submit_button">Submit</button>
           </fieldset>
 
           <h3>Contact Details</h3>
