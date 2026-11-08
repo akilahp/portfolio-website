@@ -464,6 +464,28 @@ a:visited {
   background-color: #d5d5d5;
 }
 
+/*Contact Form*/
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form_row_1 {
+  display: flex;
+  gap: 16px;
+}
+.form_row_1 label {
+  flex: 1;
+}
+.form_row_1 input, .form_row_2 input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
 /*Footer*/
 footer {
   position: absolute;
