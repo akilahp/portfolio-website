@@ -487,17 +487,41 @@ select {
   flex: 1;
 }
 
-.form_row_2, .form_row_2 label {
+.form_row_2, .form_row_2 label,
+.form_row_3, .form_row_3 label,
+.form_row_4, .form_row_4 label{
   display: block;
 }
 
-.form_row_1 input, .form_row_2 input {
+.form_row_1 input, .form_row_2 input, .form_row_3, .form_row_4  {
   display: block;
   width: 100%;
   box-sizing: border-box;
   margin-top: 6px;
   font-size: 1rem;
   border-radius: 8px;
+}
+
+textarea {
+  resize: vertical;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.submit_button {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  padding: 12px 24px;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.submit_button:hover {
+  background-color: #888888;
 }
 
 
