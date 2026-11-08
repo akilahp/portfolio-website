@@ -472,7 +472,6 @@ fieldset {
   padding: 20px;
   border-radius: 8px;
   min-width: 0;
-  width: 100%;
   box-sizing: border-box;
 }
 
@@ -490,7 +489,6 @@ select {
 
 .form_row_2, .form_row_2 label {
   display: block;
-  width: 100%;
 }
 
 .form_row_1 input, .form_row_2 input {
