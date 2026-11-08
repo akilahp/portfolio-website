@@ -483,6 +483,9 @@ fieldset {
 .form_row_1 input, .form_row_2 input {
   width: 100%;
   box-sizing: border-box;
+  margin-top: 6px;
+  font-size: 1rem;
+  border-radius: 8px;
 }
 
 
