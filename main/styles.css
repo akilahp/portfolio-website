@@ -491,6 +491,7 @@ select {
 }
 
 .form_row_1 input, .form_row_2 input {
+  display: block;
   width: 100%;
   box-sizing: border-box;
   margin-top: 6px;
